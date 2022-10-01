@@ -1,0 +1,164 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0%;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 2px solid;
+    border-radius: 10px;
+
+}
+
+.servicos li:hover h2 {
+    font-size: 35px;
+}
+
+.servicos li:hover {
+    color: red;
+    border-color: red;
+    
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+
+.copy {
+    color: white;
+    font-size: 12px;
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+form {
+    margin: 40px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.enviar:hover {
+    background: red;
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+table {
+    margin: 20px 0 40px;
+
+
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px; 
+}

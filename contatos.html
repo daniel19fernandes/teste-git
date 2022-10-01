@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos - Barbearia</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+
+
+<body>
+
+    <header>      
+        <div class="caixa">
+            <h1><img src="logo.png" class="imagem_cabecalho"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index_01.html">site qa</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contato.html">contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="nome_completo">Nome Completo</label>
+            <input type="text" id="nome_completo" class="input-padrao" required placeholder="Ex.: João Silva">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="Ex.: joao@domínio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="Ex.: (xx) 99999-9999">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="60" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite seu texto aqui..."></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</p>
+                <label for="contato-email"><input type="radio" name="contato" value="email" id="contato-email" checked>E-mail</label>
+                
+                <label for="contato-telefone"><input type="radio" name="contato" value="telefone" id="contato-telefone">Telefone</label>
+                                
+                <label for="contato-whatsapp"><input type="radio" name="contato" value="whatsapp" id="contato-whatsapp">Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+
+
+            <label for="receber-email" class="checkbox"><input type="checkbox" id="receber-email" checked>Gostaria de receber novidades por E-mail?</label>
+            
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+
+           
+        </form> 
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>10h às 21H</td>
+                </tr>
+
+                <tr>
+                    <td>Quarta</td>
+                    <td>10h às 21h</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta</td>
+                    <td>10h às 22h</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p class="copy">&copy; Copyright - 2022</p>
+
+
+    </footer>
+    
+</body>
+
+
+</html>
